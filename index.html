@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ACR Viewer</title>
+		<script type="text/javascript" src="file_reader.js"></script>
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet" type="text/css" />
+		<style type="text/css">
+			* {
+				font-family: "Roboto Slab", sans-serif;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>JavaScript ACR Viewer</h1>
+		<input type="file" accept="image/acr" name="acrUpload" id="acrUpload" />
+		<br />
+		<img id="img" style="width: 256px; height: 256px;" />
+		<canvas id="canvas" width="256" height="256" style="display: none;"></canvas>
+	</body>
+</html>
